@@ -1,6 +1,9 @@
+
+const isMultipleOfThree = (number) => number % 3 === 0
+
 export const getFizzBuzzResult = (input) => {
     const result = input.map(item => {
-        if (item % 3 === 0) {
+        if (isMultipleOfThree(item)) {
             return "Fizz"
         }
         return item
