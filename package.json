@@ -1,0 +1,16 @@
+{
+  "name": "tdd-example",
+  "version": "1.0.0",
+  "description": "simple tdd example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --test-reporter spec"
+  },
+  "author": "Thayse Onofrio",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=19.6.0",
+    "npm": ">=9.4.0"
+  }
+}
