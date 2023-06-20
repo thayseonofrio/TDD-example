@@ -8,5 +8,11 @@ describe("TDD example", () => {
         const result = getFizzBuzzResult(input)
         assert.deepStrictEqual(result, "1")
     })
+
+    it("should get correct FizzBuzz result for input 1, 2, 3", () => {
+        const input = [1, 2, 3]
+        const result = getFizzBuzzResult(input)
+        assert.deepStrictEqual(result, "1,2,Fizz")
+    })
 })
 
