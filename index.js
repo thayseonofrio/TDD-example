@@ -11,5 +11,5 @@ export const getFizzBuzzResult = (input) => {
         }
         return item
     })
-    return transformedInput
+    return JSON.stringify(transformedInput)
 }
